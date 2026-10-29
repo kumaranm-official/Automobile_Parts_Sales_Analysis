@@ -1,0 +1,10 @@
+Non Functional Requirements
+
+
+1. Use standard SQL statements. 
+2. Query must filter ON indexed columns.
+3. Avoid SELECT * .
+4. Bound DATE RANGE explicitly.
+5. Multi step logic IS built AS named CTEs (avoid nested queries)
+6. GENERATE_SERIES FOR DATE spines.
+7. Can use RECURSIVE CTEs.
